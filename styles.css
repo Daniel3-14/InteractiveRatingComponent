@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.body {
+    background-color: black;
+    text-align: center;
+}
+
+.rating-card {
+    background-color: darkslategrey;
+    border-radius: 15px;
+
+}
+
+.star {
+    background-color: slategrey;
+}
+
+.ratings {
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.rating {
+    background-color: slategrey;
+    border-radius: 50%;
+
+}
