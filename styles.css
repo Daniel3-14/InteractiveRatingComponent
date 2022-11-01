@@ -20,7 +20,8 @@
 .rating-card {
     background-color: darkslategrey;
     border-radius: 15px;
-
+    width: 350px;
+    height: 380px;
 }
 
 .star {
