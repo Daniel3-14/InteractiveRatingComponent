@@ -83,7 +83,7 @@ button {
 }
 
 .rating:hover {
-    background-color: #fc7614;
+    background-color: grey;
     color: white;
     cursor: pointer;
 }
@@ -95,6 +95,21 @@ button:hover {
 }
 
 .active {
-    background-color: grey;
+    background-color: #fc7614;
     color: white;
+}
+
+
+#end {
+    text-align: center;
+}
+
+#rated {
+    background-color:#262e38;
+    color:#fc7614;
+    border-radius: 50%;
+}
+
+.hidden {
+    display: none;
 }

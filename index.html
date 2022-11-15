@@ -17,7 +17,7 @@
 
   <!-- Rating state start -->
   <main>
-    <div class="rating-card">
+    <div id="start" class="rating-card">
       <div id="star" class="star">
         <img class="img-star" src="./images/icon-star.svg">
       </div>
@@ -32,8 +32,16 @@
           <div class="rating">4</div>
           <div class="rating">5</div>
         </div>
-        <button type="submit">SUBMIT</button>
+        <button id="submit" type="submit">SUBMIT</button>
       </form>
+    </div>
+    
+    <div id="end" class="rating-card hidden">
+      <img class="img-thankyou" src="./images/illustration-thank-you.svg">
+      <div id="rated"></div>
+      <h1>Thank you!</h1>
+      <p>We appreciate you taking the time to give a rating. If you ever need more support, 
+        don’t hesitate to get in touch!</p>
     </div>
   </main>
  
