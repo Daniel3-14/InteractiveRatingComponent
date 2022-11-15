@@ -102,12 +102,20 @@ button:hover {
 
 #end {
     text-align: center;
+    align-items: center;
+    padding: 35px 25px;
+}
+
+.img-thankyou {
+    width: 50%;
 }
 
 #rated {
     background-color:#262e38;
     color:#fc7614;
-    border-radius: 50%;
+    font-size: 0.9rem;
+    border-radius: 16px;
+    padding: 8px 12px 5px 12px;
 }
 
 .hidden {
