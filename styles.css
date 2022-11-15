@@ -1,43 +1,100 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    /* border: 1px solid red; */
 }
 
-.attribution {
-    font-size: 11px;
-    text-align: center;
+html {
+    font-family: Overpass, sans-serif;
 }
 
-.attribution a {
-    color: hsl(228, 45%, 44%);
+body {
+    background-color: #141519;
+    width: 100vw;
 }
 
-.body {
-    background-color: black;
-    text-align: center;
-}
-
-.rating-card {
-    background-color: darkslategrey;
+main {
+    margin: 8rem auto;
+    background-color: #171e28;
     border-radius: 15px;
-    width: 350px;
+    max-width: 350px;
     height: 380px;
 }
 
-.star {
-    background-color: slategrey;
-}
-
-.ratings {
-    height: 25%;
+.rating-card {
+    padding: 25px;
+    height: 100%;
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    flex-direction: column;
     justify-content: space-between;
 }
 
-.rating {
-    background-color: slategrey;
+.star {
+    background-color: #262e38;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
+}
 
+.img-star {
+    position: relative;
+    top: 33%;
+    left: 34%;
+}
+
+
+h1 {
+    color: white;
+    font-size: 1.5rem;
+}
+
+p {
+    line-height: 1.2rem;
+}
+
+p, .rating {
+    color: grey;
+    font-size: 0.85rem;
+}
+
+
+.ratings {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25px;
+}
+
+.rating {
+    background-color: #262e38;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+}
+
+button {
+    width: 100%;
+    background-color: #fc7614;
+    color: white;
+    letter-spacing: 0.1rem;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.rating:hover {
+    background-color: #fc7614;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: #fc7614;
+    cursor: pointer;
+}
+
+.active {
+    background-color: grey;
+    color: white;
 }
